@@ -10,5 +10,18 @@
   font-family: var(--root);
 }
 body {
-  background-color: red;
+  /* background-color: red; */
+}
+
+div.cards-container {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: baseline;
+}
+div.cards-container .card {
+  width: 15rem;
 }
