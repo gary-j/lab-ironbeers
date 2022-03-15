@@ -25,3 +25,9 @@ div.cards-container {
 div.cards-container .card {
   width: 15rem;
 }
+
+.card.random-beer {
+  width: 50%;
+  margin: auto;
+  border: 2px solid goldenrod;
+}
