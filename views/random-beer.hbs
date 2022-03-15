@@ -4,6 +4,16 @@
   <div class="card-body">
     <h5 class="card-title">{{name}}</h5>
     <p class="card-text">{{tagline}}</p>
+    <h5>Food Pairing</h5>
+    {{!-- <p>{{food_pairing}}</p> --}}
+    <ol> 
+    {{#each food_pairing}}
+        <li>{{this}}</li>
+    {{/each}}
+    </ol>
+    <h5>Brewers-tips</h5>
+    <p>{{brewers_tips}}</p>
+
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
