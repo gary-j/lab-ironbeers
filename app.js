@@ -23,6 +23,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/beers', (req, res)=>{
+//  let arrayBeers = punkAPI.getBeers();
   res.render('beers');
 })
 
